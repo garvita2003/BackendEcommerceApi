@@ -125,7 +125,25 @@ BackendEcommerceApi/
 **API Testing Screenshots:**
 Multiple Postman testing screenshots demonstrating CRUD operations across all endpoints.
 
-![Postman API Testing](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/32d03cb1-6ff0-4c32-8a07-4c8512836cf8)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/32d03cb1-6ff0-4c32-8a07-4c8512836cf8)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/3b65e013-e414-4511-9b7c-8ffa4be1024c)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/c400da81-6295-485d-84ab-aaad9237cc29)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/a2bcc4f0-ff58-448a-8a3d-11209f83fa69)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/747f400a-23c5-4191-a3ac-432df97c1ea6)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/29a9c03c-1990-4518-a60f-05da9d12539b)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/c4842902-c691-4f6d-8342-74733806b20f)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/f10410f5-f280-4ce6-ab9d-92c43a9d2aac)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/3a05668a-4574-4266-8a48-44dfa546059d)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/fd340dd4-e0d1-4928-bb43-093d1fbdc6de)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/2125269d-dde7-4527-ac49-f4e66f1d6b57)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/39943f5b-5e63-4c61-b0ae-155fdff501ea)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/1974d671-88a1-4173-a193-0cbc902035c0)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/1d602419-5b5c-496d-8061-e2b2f8f3f6f8)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/b55903cd-c570-4af9-a20d-6fdb55d16079)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/7b214525-8fc3-4478-80ce-6ad2a8a5b8a3)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/05b521c9-184e-40aa-b46a-43b57bc386da)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/d359c4cb-6fff-4f54-8411-e69c08453c83)
+![image](https://github.com/garvita2003/Backend---EcommerceApi/assets/102051676/21ba261d-9f73-46f3-a0e4-20264095203e)
 
 ---
 
