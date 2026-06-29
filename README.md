@@ -93,6 +93,60 @@
 
 ---
 
+## 📋 API Endpoints
+
+### Authentication Routes (`/api/auth`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/register` | Register new user | No |
+| POST | `/login` | Login existing user | No |
+
+### User Routes (`/api/users`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| PUT | `/:id` | Update user profile | Yes (User or Admin) |
+| GET | `/find/:id` | Get specific user | Yes (Admin) |
+| GET | `/` | Get all users | Yes (Admin) |
+| GET | `/stats` | Get user statistics | Yes (Admin) |
+| DELETE | `/:id` | Delete user | Yes (User or Admin) |
+
+### Product Routes (`/api/products`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/` | Create product | Yes (Admin) |
+| PUT | `/:id` | Update product | Yes (Admin) |
+| GET | `/find/:id` | Get specific product | No |
+| GET | `/` | Get all products | No |
+| GET | `/?new=true` | Get newest products | No |
+| GET | `/?category=category_name` | Get products by category | No |
+| DELETE | `/:id` | Delete product | Yes (Admin) |
+
+### Cart Routes (`/api/carts`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/` | Create cart | Yes (User) |
+| PUT | `/:id` | Update cart | Yes (User or Admin) |
+| GET | `/find/:userId` | Get user's cart | Yes (User or Admin) |
+| GET | `/` | Get all carts | Yes (Admin) |
+| DELETE | `/:id` | Delete cart | Yes (User or Admin) |
+
+### Order Routes (`/api/orders`)
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| POST | `/` | Create order | Yes (User) |
+| PUT | `/:id` | Update order | Yes (Admin) |
+| GET | `/find/:userId` | Get user's orders | Yes (User or Admin) |
+| GET | `/` | Get all orders | Yes (Admin) |
+| GET | `/income` | Get order statistics | Yes (Admin) |
+| DELETE | `/:id` | Delete order | Yes (Admin) |
+
+---
+
 ## 📂 Project Structure
 
 ```
@@ -176,56 +230,3 @@ npm install
 npm start
 # Server will run on http://localhost:5000
 ```
----
-
-## 📋 API Endpoints
-
-### Authentication Routes (`/api/auth`)
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/register` | Register new user | No |
-| POST | `/login` | Login existing user | No |
-
-### User Routes (`/api/users`)
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| PUT | `/:id` | Update user profile | Yes (User or Admin) |
-| GET | `/find/:id` | Get specific user | Yes (Admin) |
-| GET | `/` | Get all users | Yes (Admin) |
-| GET | `/stats` | Get user statistics | Yes (Admin) |
-| DELETE | `/:id` | Delete user | Yes (User or Admin) |
-
-### Product Routes (`/api/products`)
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/` | Create product | Yes (Admin) |
-| PUT | `/:id` | Update product | Yes (Admin) |
-| GET | `/find/:id` | Get specific product | No |
-| GET | `/` | Get all products | No |
-| GET | `/?new=true` | Get newest products | No |
-| GET | `/?category=category_name` | Get products by category | No |
-| DELETE | `/:id` | Delete product | Yes (Admin) |
-
-### Cart Routes (`/api/carts`)
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/` | Create cart | Yes (User) |
-| PUT | `/:id` | Update cart | Yes (User or Admin) |
-| GET | `/find/:userId` | Get user's cart | Yes (User or Admin) |
-| GET | `/` | Get all carts | Yes (Admin) |
-| DELETE | `/:id` | Delete cart | Yes (User or Admin) |
-
-### Order Routes (`/api/orders`)
-
-| Method | Endpoint | Description | Auth Required |
-|--------|----------|-------------|---------------|
-| POST | `/` | Create order | Yes (User) |
-| PUT | `/:id` | Update order | Yes (Admin) |
-| GET | `/find/:userId` | Get user's orders | Yes (User or Admin) |
-| GET | `/` | Get all orders | Yes (Admin) |
-| GET | `/income` | Get order statistics | Yes (Admin) |
-| DELETE | `/:id` | Delete order | Yes (Admin) |
